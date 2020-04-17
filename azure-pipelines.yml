@@ -10,7 +10,7 @@ pool:
   vmImage: 'macOS-latest'
 
 variables:
-- group: MFVA
+- group: AppknoxSecret
 
 steps:
 - task: Gradle@2
